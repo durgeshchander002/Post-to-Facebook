@@ -117,7 +117,7 @@ function post_to_facebook($post_id) {
         $responseData = json_decode($response, true);
 
         if (!isset($responseData['id'])) {
-            error_log('Error posting to Facebook: ' . $responseData['error']['message']);
+            error_log('Error post posting to Facebook: ' . $responseData['error']['message']);
         }
     }
 
