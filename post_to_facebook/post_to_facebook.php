@@ -45,7 +45,7 @@ function post_to_facebook_settings_page() {
         <h1>Post to Facebook Settings</h1>
         <form method="post">
             <?php wp_nonce_field('post_to_facebook_save_settings'); ?>
-            <table class="form-table">
+            <table class="form-table table-responsive">
                 <tr>
                     <th scope="row"><label for="facebook_page_access_token">Facebook Page Access Token</label></th>
                     <td><input type="text" id="facebook_page_access_token" name="facebook_page_access_token" value="<?php echo esc_attr($access_token); ?>" class="regular-text"></td>
