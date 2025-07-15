@@ -63,7 +63,7 @@ function post_to_facebook_settings_page() {
     <?php
 }
 
-// Function to post to Facebook
+// Function to post a article in to Facebook Page
 function post_to_facebook($post_id) {
     // Avoid infinite loops
     if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
