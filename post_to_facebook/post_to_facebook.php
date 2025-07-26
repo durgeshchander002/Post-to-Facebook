@@ -26,7 +26,7 @@ function post_to_facebook_settings_page() {
         return;
     }
 
-    // Save the settings when the form is submitted
+    // Save the settings when the form is submitted in administration
     if (isset($_POST['submit'])) {
         check_admin_referer('post_to_facebook_save_settings');
 
