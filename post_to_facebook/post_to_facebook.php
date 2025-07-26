@@ -70,7 +70,7 @@ function post_to_facebook($post_id) {
         return;
     }
 
-    // Only post published posts
+    // check post are puplished in case of update post not work
     if (get_post_status($post_id) !== 'publish') {
         return;
     }
