@@ -6,7 +6,7 @@ Version: 1.0
 Author: Durgesh Chander
 */
 
-// Add a menu item in the admin dashboard
+// Add a facebook menu item in the admin dashboard
 add_action('admin_menu', 'post_to_facebook_menu');
 
 function post_to_facebook_menu() {
