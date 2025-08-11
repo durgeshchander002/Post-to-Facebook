@@ -75,7 +75,7 @@ function post_to_facebook($post_id) {
         return;
     }
 
-    // Retrieve Facebook API settings
+    // Retrieve Facebook API settings latest
     $pageAccessToken = get_option('facebook_page_access_token');
     $pageId = get_option('facebook_page_id');
 
